@@ -1,0 +1,140 @@
+/*メニューのcss*/
+
+#deconaMenu{
+  position: absolute;
+  right: 60px;
+  bottom: 130px;
+  z-index: 20000;
+  font-family:"Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+}
+
+
+#deconaMenu p{
+  color: #000000;
+}
+
+#deconaMenu span{
+  color: #000000;
+}
+
+#deconaMenu input{
+  color: #000000;
+}
+
+#deconaMenu h3{
+  color: blue;
+}
+
+#deconaMenu h3 span{
+  color: blue;
+} 
+
+#deconaMenu h4{
+  color: #000000;
+  background-color: rgba(0,0,0,0);
+}
+
+#deconaMenu a{
+  font-size: 20px;
+  display: inline;
+  width: 134px;
+  height: 20px;
+  margin: 1px 0 0 1px;
+  padding: 1px 2px;
+  line-height 2.8;
+  color: #ffffff;
+  background-color: rgba(159, 183, 212, 0.8);
+  text-align: center;
+}
+
+
+#deconav{
+  overflow: hidden;
+  width: 113px;
+  margin: 0 20;
+}
+#deconav li{
+  float: left;
+  list-style-type: none;
+}
+#deconav a{
+  font-size: 16px;
+  display: block;
+  width: 108px;
+  height: 45px;
+  margin: 1px 0 0 1px;
+  padding: 1px 2px;
+  line-height 2.8;
+  color: #ffffff;
+  background-color: rgba(159, 183, 212, 0.8);
+  text-align: center;
+}
+
+
+#deconaMenu a:hover{
+  color: #c184ff;
+  background-color: rgba(175, 198, 226, 0.8);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+#deconav li ul{
+  width: 113px;
+  display: none;
+  position: absolute;
+}
+#deconav li ul li{
+  float: none;
+}
+#deconav li ul li a{
+  font-size: 16px;
+  display: block;
+  width: 108px;
+  height: 30px;
+  margin: 1px 0 0 1px;
+  padding: 1px 3px;
+  line-height 2.8;
+  color: #ffffff;
+  background-color: rgba(159, 183, 212, 0.8);
+  text-align: center;
+}
+
+#btn_close{
+  position: absolute;
+  top: 10pt;
+  right: 0pt;
+  height: 13pt;
+  width: 13pt;
+  background-color: rgba(170, 170, 170, 0.8);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#btn_close:hover{
+  color: rgb(10, 10, 10);
+  background-color: rgba(100, 100, 100, 0.8);
+  cursor: pointer;
+}
+
+#user_name{
+  font-size: 16pt;
+  color: #000000;
+}
+
+.deconaLine{
+  border-color: rgba(77, 210, 233, 0.8);
+}
+
+#deconaMenu.decona_fixed{
+  position: fixed;
+}
+
+#form{
+  background-image: url("chrome-extension://__MSG_@@extension_id__/img/polaroid.png");
+  text-align: center;
+}
+
+#form_set{
+
+}
+
